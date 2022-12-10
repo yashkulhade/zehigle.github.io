@@ -1,0 +1,313 @@
+/* https://www.zehigel.com/ */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    /* height: 100%; */
+    color: rgb(2, 44, 2);
+    background-color: #fdefe7;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+html::-webkit-scrollbar{
+    display: none;
+}
+
+/* #main{
+    overflow: auto;
+} */
+
+#section1{
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    position: relative;
+    /* background-color: #fdefe7; */
+}
+
+#heading{
+    display: flex;
+    position: absolute;
+    top: 17%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    /* color: rgb(2, 44, 2); */
+    /* background-color: red; */
+}
+
+#heading h1{
+    font-size: 280px;
+}
+
+#heading #arrow{
+    position: absolute;
+    left: 41%;
+    top: 17%;
+}
+
+#btm1{
+    width: 400px;
+    height: 230px;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+#btm1 p{
+    font-size: 25px;
+    margin-left: 17px;
+    text-align: left;
+}
+
+#btm2{
+    width: 300px;
+    height: 230px;
+    position: absolute;
+    left: 450px;
+    bottom: 0%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: rgb(0, 255, 34); */
+}
+
+#btm2 p{
+    font-size: 25px;
+    margin-left: 17px;
+    text-align: left;
+}
+
+#btm2 button{
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 17px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(2, 44, 2);
+    border: 1px solid rgb(2, 44, 2);
+    background-color: transparent;
+}
+
+#section2{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: #fdefe7; */
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    margin-bottom: 6%;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+}
+
+.l1{
+    width: 45%;
+    height: 1px;
+    background-color: rgb(51, 48, 48);
+}
+
+.l2{
+    width: 45%;
+    height: 1px;
+    background-color: rgb(51, 48, 48);
+}
+
+.content{
+    width: 70%;
+    margin-left: 15%;
+    position: relative;
+    /* margin-top: 10%; */
+    /* background-color: gray; */
+}
+
+.content img{ 
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.content .txt{
+    font-size: 120px;
+    text-align: center;
+    margin-top: 20px;
+    /* color: rgb(2, 44, 2); */
+}
+
+.content .txt2{
+    margin-left: 30%;
+    /* color: rgb(2, 44, 2); */
+}
+
+#section3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 7%; */
+    /* background-color: #fdefe7; */
+}
+
+#lasttop{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    /* background-color: yellow; */
+}
+
+h3{
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 15px;
+    white-space: nowrap;
+    /* color: rgb(2, 44, 2); */
+}
+
+#l3{
+    width: 100%;
+    height: 1px;
+    margin-top: 20px;
+    background-color: rgb(51, 48, 48);
+}
+
+#about{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    margin-top: 13%;
+    justify-content: space-around;
+    /* background-color: #dadada; */
+}
+
+#a1{
+    width: 35%;
+    height: 230px;
+    padding-left: 15px;
+    /* background-color: yellow; */
+}
+
+#a2{
+    width: 15%;
+    height: 230px;
+    /* background-color: rgb(81, 255, 0); */
+}
+
+#a3{
+    width: 10%;
+    height: 230px;
+    /* background-color: yellow; */
+}
+
+#a4{
+    width: 15%;
+    height: 230px;
+    display: flex;
+    /* background-color: rgb(0, 255, 221); */
+}
+
+#a11{
+    font-size: 20px;
+    font-weight: 700;
+    /* color: rgb(2, 44, 2); */
+}
+
+#a12{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 500;
+    /* color: rgb(2, 44, 2); */
+}
+
+#a21{
+    font-size: 20px;
+    font-weight: 700;
+    /* color: rgb(2, 44, 2); */
+}
+
+#a22{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+    /* color: rgb(2, 44, 2); */
+}
+
+#a31{
+    font-size: 20px;
+    font-weight: 700;
+    /* color: rgb(2, 44, 2); */
+}
+
+#a32{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 700;
+    /* color: rgb(2, 44, 2); */
+}
+
+#a4 i{
+    font-size: 25px;
+    /* color: rgb(2, 44, 2); */
+}
+
+#mode{
+    width: 65px;
+    height: 25px;
+    display: flex;
+    margin: 0px 10px;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 15px;
+    border:1px solid rgb(2, 44, 2);
+}
+
+#mode #circle{
+    width: 18px;
+    height: 18px;
+    margin-left: 3px;
+    border-radius: 100px;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .5s;
+    background-color: rgb(2, 44, 2);
+}
+
+#btm{
+    width: 83%;
+    height: 180px;
+    margin-left: 4%;
+    margin-top: 5%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(2, 44, 2);
+}
+
+#bt{
+    font-size: 115px;
+    font-family: "Ogg";
+    /* color: rgb(2, 44, 2); */
+}
+
+#hor{
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 16%;
+    right: 2%;
+    transform: rotate(-90deg);
+}
